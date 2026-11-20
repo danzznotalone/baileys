@@ -1,0 +1,47 @@
+{
+  "name": "@danzznotalone/baileys",
+  "version": "7.2.0-azazel",
+  "description": "Custom WhatsApp Web Socket API by Danzz - Anti-Logout, Full Rich & Interactive Payload, Custom Pairing",
+  "main": "lib/index.js",
+  "types": "lib/Types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "azazel",
+    "danzz",
+    "bot-wa",
+    "multi-device"
+  ],
+  "author": "Danzz (danzznotalone)",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node -e \"import('./lib/Utils/banner.js').then(m => m.showAzazelBanner())\""
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.7.7",
+    "cache-manager": "^5.7.6",
+    "chalk": "^4.1.2",
+    "curve25519-js": "^0.0.4",
+    "futoin-hkdf": "^1.5.3",
+    "jimp": "^0.22.12",
+    "libphonenumber-js": "^1.11.14",
+    "libsignal": "git+https://github.com",
+    "link-preview-js": "^3.0.5",
+    "music-metadata": "^7.14.0",
+    "node-cache": "^5.1.2",
+    "pino": "^9.5.0",
+    "protobufjs": "^7.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.33.5",
+    "uuid": "^11.0.2",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
